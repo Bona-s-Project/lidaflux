@@ -2604,10 +2604,17 @@ small.text {
   visibility: visible;
 }
 
+@media screen and (max-width: 767px) {
+  .logo-img{
+    width: 135px!important;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .side_menu.style-7 {
     width: 100%;
   }
+
   .side_menu.style-7 .pages_links {
     height: calc(100vh - 273px);
   }
